@@ -1,0 +1,38 @@
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+
+\name{\textcolor{black}{Margaux}}{\textcolor{black}{Filippi}}
+
+\socialinfo{
+	\linkedin{margauxfilippi}
+        \email{margauxf@alum.mit.edu}
+        \googlepatents{https://patents.google.com/?inventor=Margaux+MARTIN-FILIPPI}
+        \googlescholar{https://scholar.google.com/citations?user=DlphiJUAAAAJ}
+        \github{margauxf}
+}
+
+\begin{document}
+
+	\makecvheader
+	% no footer
+	%\makecvfooter 
+	%	{\selectlanguage{english}\today} % \textsc{\today}
+	%	{\textsc{Margaux Filippi}}
+	%	{\thepage}
+
+    %\input{section_headline} 		% Not including headling
+    \input{section_experience_short}
+    \vspace{-20pt} 				% Artificially removing a space
+    \input{section_skills_ed}			% Skills section, modeled after education section
+    \input{section_scolarite}			% Education section
+    \input{section_references} 		% Not publicly disclosing references for their privacy.
+
+\end{document}
